@@ -19,6 +19,8 @@ html {
   box-sizing: inherit;
 }
 
+/* Home Page */
+
 header {
   display: block;
   background-color: #FEA500;
@@ -28,15 +30,51 @@ body {
   margin: 0;
   padding: 0;
   background-color: #ddd;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.products {
+  width: 100%;
+}
+
+/* Contact Page */
+
+label {
+  display: block;
+}
+
+form div {
+  margin-bottom: 1.5rem;
+}
+
+input {
+  font-size: 1.125rem;
+}
+
+input,
+select, {
+  font-size: 1.125rem;
+  width: 15em;
+}
+
+textarea {
+  font-size: 1.125rem;
+  width: 15em;
+  height: 10em;
+}
+
+button {
+  font-size: 1.125rem;
+  padding: 0.5em 0.75em;
+  background-color: #FEA500;
+  border: 3px solid;
 }
 
 nav ul {
-  text-align: center;
-  padding: 0;
   display: flex;
-  flex-direction: column;
+  text-align: center;
+  flex-direction: row;
   justify-content: space-around;
-  margin: 0;
 }
 
 nav li {
@@ -47,10 +85,8 @@ nav a {
   text-decoration: none;
   font-size: 1em;
   color: black;
-  padding: .75em 7.5em;
   max-width: 100%;
   display: inline-block;
-  background-color: #ddd;
   border-radius: 4px;
   font-weight: normal;
   margin: .4em;
