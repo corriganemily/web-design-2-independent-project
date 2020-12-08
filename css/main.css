@@ -68,6 +68,7 @@ nav {
 
 .products {
   width: 100%;
+  margin-bottom: 1rem;
 }
 
 .artist {
@@ -97,8 +98,7 @@ input {
   font-size: 1.125rem;
 }
 
-input,
-select, {
+input {
   font-size: 1.125rem;
   width: 15em;
 }
@@ -141,7 +141,7 @@ nav a {
 footer {
   display: block;
   text-align: center;
-  background-color: #FEA500;
+  background-color: #8BA9AF;
   padding: 1em;
 }
 
@@ -149,37 +149,6 @@ main {
   text-align: center;
   padding: 0;
   margin: 1em;
-}
-
-.img-flex {
-  width: 100%;
-  margin: auto;
-  display: block;
-}
-
-figure {
-  margin: 0;
-  border-radius: 10px;
-  position: relative;
-}
-
-div .spec {
-  margin-left: .5em;
-  margin-right: .5em;
-}
-
-div h3 {
-  margin-left: .5em;
-  margin-right: .5em;
-}
-
-div p {
-  margin-left: .5em;
-  margin-right: .5em;
-}
-
-.specials img {
-  width: 100%;
 }
 
 nav a:hover {
@@ -191,13 +160,6 @@ nav a:hover {
   html {
     font-size: 120%;
     line-height: normal;
-  }
-
-  .signs img {
-    width: 150px;
-    flex-direction: row;
-    justify-content: space-around;
-    margin: .5em;
   }
 
 }
@@ -217,19 +179,29 @@ nav a:hover {
     padding: .5em 2.5em;
   }
 
-  .circ img {
-    width: 150px;
-    flex-direction: row;
-    justify-content: space-around;
-    margin: .5em;
+  .about {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
   }
 
-  .specials {
-    margin-bottom: 2em;
+  .me {
+    margin-top: 2rem;
   }
 
-  .special .gour {
-    margin-bottom: 2em;
+  .emily {
+    font-size: .85rem;
+    margin: 0.5rem;
+  }
+
+  .product {
+    display: grid;
+    grid-template-areas: ".products .products .products";
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .products {
+    display: grid;
+    margin-bottom: 2rem;
   }
 
 }
@@ -241,32 +213,8 @@ nav a:hover {
     line-height: 1.5;
   }
 
-  .coco h1 {
-    padding: 0 5em;
-  }
-
   nav a {
     padding: .5em 4.2em;
-  }
-
-  .circ img {
-    width: 280px;
-  }
-
-  .specials {
-    display: flex;
-  }
-
-  .special .gour {
-    width: 50%;
-  }
-
-  .special .pepper {
-    width: 50%;
-  }
-
-  .special .spec {
-    text-align: center;
   }
 
 }
