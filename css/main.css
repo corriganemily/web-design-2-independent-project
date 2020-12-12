@@ -84,6 +84,28 @@ ul {
   margin: 0;
 }
 
+/* Shop Page */
+
+.column {
+  width: 100%;
+  float: left;
+  padding: 0px 10px;
+}
+
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.store {
+  width: 100%;
+}
+
+h1 {
+  display
+}
+
 /* Contact Page */
 
 label {
@@ -138,7 +160,7 @@ nav a {
   margin: .4em;
 }
 
-footer {
+.background {
   display: block;
   text-align: center;
   background-color: #8BA9AF;
@@ -204,6 +226,16 @@ nav a:hover {
     margin-bottom: 2rem;
   }
 
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    max-width: 300px;
+    margin: auto;
+    background-color: white;
+    text-align: center;
+    border-top: 40px;
+    padding-bottom: 15px;
+  }
+
 }
 
 @media only screen and (min-width: 60em) {
@@ -229,49 +261,5 @@ nav a:hover {
     padding: .5em 8em;
   }
 
-  .coco {
-    width: 70%;
-  }
-
-  .flex {
-    display: flex;
-  }
-
-  .circ {
-    display: flex;
-    flex-direction: column;
-    margin-left: 5em;
-  }
-
-  .circ img {
-    width: 180px;
-    justify-content: space-around;
-  }
-
-  .specials {
-    display: flex;
-    flex-direction: row;
-  }
-
-  .gour img {
-    width: 40%;
-  }
-
-  .specials .gour {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-  }
-
-  .pepper img {
-    width: 40%;
-  }
-
-  .specials .pepper {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    margin-left: .5em;
-  }
 
 }
